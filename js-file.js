@@ -14,5 +14,8 @@ function makeGrid(size){
         container.appendChild(column);
     }
 }
+function newGrid(){
+    
+}
 
 makeGrid(16);
