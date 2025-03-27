@@ -15,4 +15,4 @@ function makeGrid(size){
     }
 }
 
-makeGrid(100);
+makeGrid(16);
