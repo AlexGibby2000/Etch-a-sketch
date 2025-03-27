@@ -15,7 +15,15 @@ function makeGrid(size){
     }
 }
 function newGrid(){
-    
+    let x=101;
+    while(x>100||isNaN(x)){
+        x=parseInt(prompt("Enter grid size(between 0 and 100):"));
+    }
+    let div=document.getElementById("sketch-screen");
+    while(div.firstChild){
+        div.removeChild(div.firstChild);
+    }
+    makeGrid(x);
 }
 
 makeGrid(16);
